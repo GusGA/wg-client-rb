@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'thor'
+require 'bundler/setup'
+require 'wgclient/gen'
+
+module Wgclient
+  class CLI < Thor
+    def self.exit_on_failure?
+      false
+    end
+  end
+end
+Wgclient::CLI.start(ARGV)

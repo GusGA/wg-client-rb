@@ -1,0 +1,15 @@
+{
+  "server_public_key": "public_key",
+  "server_endpoint": "192.168.1.0:9999",
+  "network_ip": "10.0.0.1/24",
+  "dns": "1.1.1.1",
+  "network_last_ip": "10.0.0.254",
+  "peers": [
+    {
+      "ip_address": "10.0.0.2/32",
+      "private_key": "uN5MkngOP3Ffq1OFYyaeESdXUN7HPJ5KD5ZY+b7rz0A=",
+      "public_key": "ZSDmiaTjuPnN7y7pbsEi7hLsMKI6M1FXi4x8dN43Zjs=",
+      "device_name": "MBPRetina"
+    }
+  ]
+}
